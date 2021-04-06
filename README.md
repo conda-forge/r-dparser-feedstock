@@ -3,7 +3,7 @@ About r-dparser
 
 Home: https://CRAN.R-project.org/package=dparser
 
-Package license: BSD_3_clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dparser-feedstock/blob/master/LICENSE.txt)
 
