@@ -1,4 +1,4 @@
-{% set version = "1.3.1-9" %}
+{% set version = "1.3.1-10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dparser_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dparser/dparser_{{ version }}.tar.gz
-  sha256: 279a3602de2bd69f3f42ae3895c7c5d81f84b5c2166bbde51d0e3b5ec76bc352
+  sha256: ddc5e7eb217a28230294b75e819317c745609cc72ea56399291cc3c3dd933e0d
 
 build:
   merge_build_host: true  # [win]
