@@ -3,6 +3,7 @@ About r-dparser-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dparser-feedstock/blob/main/LICENSE.txt)
 
+
 About r-dparser
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=dparser
 Package license: BSD-3-Clause
 
 Summary: A Scannerless GLR parser/parser generator.  Note that GLR standing for "generalized LR", where L stands for "left-to-right" and R stands for "rightmost (derivation)".  For more information see <https://en.wikipedia.org/wiki/GLR_parser>. This parser is based on the Tomita (1987) algorithm. (Paper can be found at <http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d3/data/pdf/anthology-PDF/J/J87/J87-1004.pdf>). The original 'dparser' package documentation can be found at <http://dparser.sourceforge.net/>.  This allows you to add mini-languages to R (like RxODE's ODE mini-language Wang, Hallow, and James 2015 <DOI:10.1002/psp4.12052>) or to parse other languages like 'NONMEM' to automatically translate them to R code.   To use this in your code, add a LinkingTo dparser in your DESCRIPTION file and instead of using #include <dparse.h> use #include <dparser.h>.  This also provides a R-based port of the make_dparser <http://dparser.sourceforge.net/d/make_dparser.cat> command called mkdparser().  Additionally you can parse an arbitrary grammar within R using the dparse() function, which works on most OSes and is mainly for grammar testing.  The fastest parsing, of course, occurs at the C level, and is suggested.
+
 About r-dparser
 ---------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
