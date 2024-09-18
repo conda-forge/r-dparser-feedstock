@@ -1,4 +1,4 @@
-{% set version = "1.3.1-11" %}
+{% set version = "1.3.1-12" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dparser_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dparser/dparser_{{ version }}.tar.gz
-  sha256: e8aec67629a12aa55a526f782e3e395ee6a1d27535c4e13347a990c5b07b64f5
+  sha256: 102626f7b35c21f22364a0267b9b46b926c742796dd0468763cb7db6d9ff1081
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
